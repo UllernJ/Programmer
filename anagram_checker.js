@@ -1,5 +1,5 @@
 //vi lager en funksjon som fjerner alle duplikat bokstaver.
-const unrepeated = (str) => [new Set(str)].join("");
+const unrepeated = (str) => [... new Set(str)].join("");
 
 //vi bruker funksjonen og fjerner unødvendige mellom rom og punktum.
 var string1 = unrepeated("dare").replace(" ", "").replace(".", "");
@@ -10,15 +10,20 @@ var string2 = unrepeated("read").replace(" ", "").replace(".", "");
 var array2 = Array.from(string2).sort();
 
 //vi sender verdiene våre til en function som sjekker om stringene er anagram.
-sjekkOmAnagram(array, array2);
+if(array.length == array2.length) {
+    sjekkOmAnagram(array, array2);
+}
+else {
+    console.log("Dette er ikke et anagram.")
+}
 
 function sjekkOmAnagram(x, y) {
-    if (x != y) {
-        console.log("Dette er et anagram.");
+    for(i = 0; i > x.length; i++) {
+        if(x[i] != y[i]) {
+            return false;
+        }
     }
-    else {
-        console.log("Dette er ikke et anagram.");
-    }
+    console.log("Dette er et anagram.")
 }
 
 
