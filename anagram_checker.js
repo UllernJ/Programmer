@@ -1,5 +1,5 @@
 //vi lager en funksjon som fjerner alle duplikat bokstaver.
-const unrepeated = (str) => [... new Set(str)].join("");
+const unrepeated = (str) => [new Set(str)].join("");
 
 //vi bruker funksjonen og fjerner unødvendige mellom rom og punktum.
 var string1 = unrepeated("dare").replace(" ", "").replace(".", "");
