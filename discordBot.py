@@ -2,7 +2,7 @@ import discord
 import random
 import os
 
-TOKEN = "ODEyMDgyNzM3MTg2OTk2Mjg1.YC7k_A.ldx_vnw47MDejWjT-a_ufn4K--U"
+TOKEN = ""
 
 #Vi lister opp alle memes i et array.
 MEMES = os.listdir("meme")
