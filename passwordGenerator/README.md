@@ -1,21 +1,21 @@
- # Passord Generator laget av Ullern.
- Det er viktig å ha et sikkert og langt passord. Dette er på grunn av muligheten til å knekke passord basert på lengde, jo lengere passordet er, 
- desto flere forskjellige kombinasjoner er mulig.
+# Password generator made of Ullern.
+ It is important to have a complex and long password. This is due to the ability to crack password based on length, the longer the password is,
+ The more different combinations are possible.
  
-## Hvorfor bruke min generator istede for å lage et eget passord?
+## Why use my generator instead of creating a separate password?
 
-<p>Passord generatoren vil bruke helt tilfeldige tall, symboler og bokstaver. Dette vil eliminere den personifiserte passord typen som også 'svekker' passord.</p>
+<p>This password generator will use completely random numbers, symbols and letters. This will eliminate the personified password type that also 'weakens' passwords. </ P>
 
-## Ekstra tips:
+## Extra tip:
 
-<p>- Dette vil ikke være et uhackbar passord, muligheten er alltid der. Men om det skjer er det mest sansynnelig at ditt passord er på aveie.</p>
-<p>- Vær kritisk med å bruke samme passord på flere sider, spør deg selv hvor mange ganger har du brukt samme passord, på forskjellige sider?</p>
-<p>- En fin side for å få oversikt av databrudd du kan være rammet av: https://haveibeenpwned.com/ </p>
-<p>- Hvor bør jeg lagre passord? Passord bør etter MIN mening lagres fysisk og ikke på PCen noe sted for optimal sikkerhet.</p>
+<p> - This will not be an "total" password, the opportunity is always there. But if that happens, it's most likely that your password has been leaked somehow. </p>
+<p> - Be critical of using the same password on multiple pages, ask yourself how many times have you used the same password, on different pages? </p>
+<p> - A nice page to get an overview of the data breach you might be affected by: https://haveibeenpwned.com/ </p>
+<p> - Where should I save passwords? Password should, in my opinion, be stored physically and not on the PC anywhere for optimal security. </p>
 
-## Krav:
+## Requirements:
 
-Dette programmet krever pyperclip.
+This program requires pyperclip.
 
 ```
 pip install pyperclip
