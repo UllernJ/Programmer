@@ -2,7 +2,7 @@
  Det er viktig å ha et sikkert og langt passord. Dette er på grunn av muligheten til å knekke passord basert på lengde, jo lengere passordet er, 
  desto flere forskjellige kombinasjoner er mulig.
  
-<p>Hvorfor bruke min generator istede for å lage et eget passord?</p>
+## Hvorfor bruke min generator istede for å lage et eget passord?
 
 <p>Passord generatoren vil bruke helt tilfeldige tall, symboler og bokstaver. Dette vil eliminere den personifiserte passord typen som også 'svekker' passord.</p>
 
