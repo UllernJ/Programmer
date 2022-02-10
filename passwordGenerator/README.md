@@ -6,9 +6,9 @@
 
 <p>This password generator will use completely random numbers, symbols and letters. This will eliminate the personified password type that also 'weakens' passwords. </ P>
 
-## Extra tip:
+## Extra tips:
 
-<p> - This will not be an "total" password, the opportunity is always there. But if that happens, it's most likely that your password has been leaked somehow. </p>
+<p> - This will not be an "invisible" password(s), the chance of being hacked is always there. But if that happens, it's most likely that your password has been leaked somehow.</p>
 <p> - Be critical of using the same password on multiple pages, ask yourself how many times have you used the same password, on different pages? </p>
 <p> - A nice page to get an overview of the data breach you might be affected by: https://haveibeenpwned.com/ </p>
 <p> - Where should I save passwords? Password should, in my opinion, be stored physically and not on the PC anywhere for optimal security. </p>
