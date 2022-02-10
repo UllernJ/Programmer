@@ -1,24 +1,23 @@
-# -*- coding: utf-8 -*-
 import random
 import pyperclip
 
 def __main__():  
-    passordLengde = input("Hvor langt vil du at passorde skal være?: ")
-    passordLengde = int(passordLengde) 
+    passwordLength = input("Insert the length you want your password: ")
+    passwordLength = int(passwordLength) 
 
-    passordListe = '1234567890+!"#¤%&/()=?`qwertyuiopasdfghjkl<>zxcvbnm,.-_:;*^~QWERTYUIOPASDFGHJKLZXCVBNM'
-    arr = list(passordListe)
+    passwordList = '1234567890+!"#¤%&/()=?`qwertyuiopasdfghjkl<>zxcvbnm,.-_:;*^~QWERTYUIOPASDFGHJKLZXCVBNM'
+    arr = list(passwordList)
 
     i = 0
-    generertPassord = ""
+    generatedPassword = ""
 
-    while(i < passordLengde):
+    while(i < passwordLength):
         i += 1
-        generertPassord += random.choice(arr)
+        generatedPassword += random.choice(arr)
         
 
-    print("\nHer er ditt passord:", generertPassord, "\nPassord er kopiert.")
-    pyperclip.copy(generertPassord)
+    print("\nYour password:", generatedPassword, "\nPassword has been copied to your clipboard.")
+    pyperclip.copy(generatedPassword)
 
 if __name__ == '__main__':
     __main__()
