@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-import random;
+import random
+import pyperclip
 
 print("Dette er Ullern's passord generator. \nDet er viktig å ha et sikkert og langt passord. Dette er på grunn av muligheten til å knekke passord basert på lengde, jo lengere passordet er, desto flere forskjellige kombinasjoner er mulig.",
 "\n\nHvorfor bruke min generator istede for å lage et eget passord?", 
@@ -26,7 +27,8 @@ def __main__():
         generertPassord += random.choice(arr)
         
 
-    print("\nHer er ditt passord:", generertPassord)
+    print("\nHer er ditt passord:", generertPassord, "\nPassord er kopiert.")
+    pyperclip.copy(generertPassord)
 
 if __name__ == '__main__':
     __main__()
