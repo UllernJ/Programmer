@@ -1,4 +1,4 @@
-# -*- coding: iso-8859-15 -*-
+# -*- coding: utf-8 -*-
 import random;
 
 print("Dette er Ullern's passord generator. \nDet er viktig å ha et sikkert og langt passord. Dette er på grunn av muligheten til å knekke passord basert på lengde, jo lengere passordet er, desto flere forskjellige kombinasjoner er mulig.",
@@ -26,7 +26,7 @@ def __main__():
         generertPassord += random.choice(arr)
         
 
-    print(generertPassord)
+    print("\nHer er ditt passord:", generertPassord)
 
 if __name__ == '__main__':
     __main__()
