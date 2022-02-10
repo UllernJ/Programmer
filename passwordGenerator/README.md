@@ -2,7 +2,7 @@
  It is important to have a complex and long password. This is due to the ability to crack password based on length, the longer the password is,
  The more different combinations are possible.
  
-## Why use my generator password?
+## Why use my password generator?
 
 <p>This password generator will use completely random numbers, symbols and letters. This will eliminate the personified password type that also 'weakens' passwords. </ P>
 
@@ -20,3 +20,11 @@ This program requires pyperclip.
 ```
 pip install pyperclip
 ```
+
+## How to Use:
+
+```
+python3 passwordGenerator.py
+```
+
+Then follow instructions given.
